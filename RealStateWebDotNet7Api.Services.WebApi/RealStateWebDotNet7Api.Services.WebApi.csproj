@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="6.0.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="6.0.5" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="6.0.5" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="6.0.5" />
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RealStateWebDotNet7Api.App.DTO\RealStateWebDotNet7Api.App.DTO.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.App.Interface\RealStateWebDotNet7Api.App.Interface.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.App.Main\RealStateWebDotNet7Api.App.Main.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.CrossApp.Common\RealStateWebDotNet7Api.CrossApp.Common.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.CrossApp.Log\RealStateWebDotNet7Api.CrossApp.Log.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.CrossApp.Mapper\RealStateWebDotNet7Api.CrossApp.Mapper.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.Domain.Core\RealStateWebDotNet7Api.Domain.Core.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.Domain.Entity\RealStateWebDotNet7Api.Domain.Entity.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.Domain.Interface\RealStateWebDotNet7Api.Domain.Interface.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.Infra.Data\RealStateWebDotNet7Api.Infra.Data.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.Infra.Interface\RealStateWebDotNet7Api.Infra.Interface.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.Infra.Repository\RealStateWebDotNet7Api.Infra.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

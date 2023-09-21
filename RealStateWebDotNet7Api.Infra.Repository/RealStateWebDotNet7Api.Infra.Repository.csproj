@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RealStateWebDotNet7Api.CrossApp.Common\RealStateWebDotNet7Api.CrossApp.Common.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.Infra.Data\RealStateWebDotNet7Api.Infra.Data.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.Infra.Interface\RealStateWebDotNet7Api.Infra.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

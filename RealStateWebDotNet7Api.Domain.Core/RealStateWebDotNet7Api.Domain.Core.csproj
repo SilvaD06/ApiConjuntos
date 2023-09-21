@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RealStateWebDotNet7Api.Domain.Entity\RealStateWebDotNet7Api.Domain.Entity.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.Domain.Interface\RealStateWebDotNet7Api.Domain.Interface.csproj" />
+    <ProjectReference Include="..\RealStateWebDotNet7Api.Infra.Interface\RealStateWebDotNet7Api.Infra.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
